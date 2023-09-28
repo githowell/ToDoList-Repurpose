@@ -1,0 +1,43 @@
+body  {
+    background-color: rgb(255, 255, 230);
+}
+
+li {
+    list-style-type: none;
+}
+
+.toDoList  {
+    background-image: url("https://img.freepik.com/premium-vector/vector-single-cartoon-spiral-notebook-isolated-white-background-vector-illustration_939711-1301.jpg?w=360");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    font-size: 25px;
+}
+
+h1, h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(131, 63, 0, 0.747);
+   
+}
+h3 {
+    color: rgb(131, 63, 0);
+    text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.747);
+    font-size: 25px;
+
+    
+}
+
+button {
+    color: rgb(255, 255, 230);
+    background-color:  rgb(131, 63, 0);
+    border-radius: 50%;
+}
+
+.addBtn  {
+    display: grid;
+    position: static;
+    
+}
+input {
+    height: 5vh;
+}
